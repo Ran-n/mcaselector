@@ -1,0 +1,121 @@
+status.region;rexión
+status.region.tooltip;A rexión superposta representa os números no nome do seu ficheiro.
+status.chunk;anaco
+status.chunk.tooltip;O anaco actualmente superposto.
+status.block;bloque
+status.block.tooltip;Unha aproximación do bloque actualmente superposto.
+status.selected;seleccionado
+status.selected.tooltip;A cantidade actual de anacos seleccionados.
+status.visible;visible
+status.visible.tooltip;A cantidade de imaxes de rexión cargadas para renderizar.
+status.total;total
+status.total.tooltip;O número total de rexións cargadas, incluíndo as non visibles.
+menu.file;Ficheiro
+menu.view;Vista
+menu.selection;Selección
+menu.tools;Ferramentas
+menu.about;Sobre
+menu.file.open;Abrir
+menu.file.settings;Configuración
+menu.file.quit;Sair
+menu.view.chunk_grid;Grella de anacos
+menu.view.region_grid;Grella de rexións
+menu.view.goto;Ir a
+menu.view.clear_cache;Limpar caché
+menu.view.clear_all_cache;Limpar todo o caché
+menu.selection.clear;Limpar
+menu.selection.export_chunks;Exportar anacos seleccionados
+menu.selection.delete_chunks;Eliminar anacos seleccionados
+menu.selection.import_selection;Importar selección
+menu.selection.export_selection;Exportar selección
+menu.selection.clear_cache;Limpar caché
+menu.tools.import_chunks;Importar anacos
+menu.tools.filter_chunks;Filtrar anacos
+menu.tools.change_fields;Cambiar campos
+menu.tools.edit_nbt;Editar anaco
+menu.tools.swap_chunks;Intercambiar anacos
+dialog.settings.title;Configuración
+dialog.settings.language;Lingua
+dialog.settings.read_threads;Ler fíos
+dialog.settings.process_threads;Procesar fíos
+dialog.settings.write_threads;Escribir fíos
+dialog.settings.max_files;Cantidade máxima de arquivos cargados
+dialog.settings.region_color;Cor de selección de rexión
+dialog.settings.chunk_color;Cor de selección de anaco
+dialog.settings.shade;Sombra
+dialog.settings.shade_water;Sombra da auga
+dialog.settings.print_debug;Imprimir mensaxes de debug
+dialog.settings.reset;Reseteo
+dialog.goto.title;Ir a localización
+dialog.confirmation.question;Estás certo?
+dialog.delete_chunks_confirmation.title;Eliminar anacos
+dialog.delete_chunks_confirmation.header_short;Estás a piques de eliminar un número descoñecido de anacos deste mundo.
+dialog.delete_chunks_confirmation.header_verbose;Estás a piques de eliminar %d anacos deste mundo.
+dialog.import_chunks_confirmation.title;Importar anacos
+dialog.import_chunks_confirmation.header;Estás a piques de importar un número descoñecido de anacos a este mundo.
+dialog.import_chunks_confirmation.options;Opcións
+dialog.import_chunks_confirmation.options.offset;Desprazamento
+dialog.import_chunks_confirmation.options.overwrite;Sobreescribir anacos existentes
+dialog.import_chunks_confirmation.options.selection_only;Aplicar soamente á selección
+dialog.import_chunks_confirmation.options.sections;Seccións
+dialog.import_chunks_confirmation.warning;Advertencia: Importar anacos cun desprazamento non actualizará os contidos de bloques de comandos.
+dialog.export_chunks_confirmation.title;Exportar anacos
+dialog.export_chunks_confirmation.header_short;Estás a punto de exportar un número descoñecido de anacos deste mundo.
+dialog.export_chunks_confirmation.header_verbose;Estás a punto de exportar %d anacos deste mundo.
+dialog.filter_chunks.title;Filtrar anacos
+dialog.filter_chunks.filter.add.tooltip;Engade unha nova condición baixo esta.
+dialog.filter_chunks.filter.delete.tooltip;Elimina esta condición.
+dialog.filter_chunks.filter.type.tooltip;O tipo desta condición.
+dialog.filter_chunks.filter.operator.tooltip;O operador para ligar múltiples condicións.
+dialog.filter_chunks.filter.comparator.tooltip;O comparador.
+dialog.filter_chunks.select;Seleccionar
+dialog.filter_chunks.select.tooltip;Crea unha selección de anacos afectados.
+dialog.filter_chunks.export;Exportar
+dialog.filter_chunks.export.tooltip;Exportar todos os anacos afectados nun novo directorio.
+dialog.filter_chunks.delete;Eliminar
+dialog.filter_chunks.delete.tooltip;Elimina todos os anacos afectados do mundo actual.
+dialog.filter_chunks.selection_only;Aplicar soamente á selección
+dialog.filter_chunks.selection_radius;Radio de selección
+dialog.filter_chunks.selection_only.tooltip;Se este filtro só debería aplicarse á selección actual.
+dialog.change_nbt.title;Cambiar NBT
+dialog.change_nbt.change;Cambiar
+dialog.change_nbt.change.tooltip;Cambia o valor só se a chave xa existe.
+dialog.change_nbt.force;Forzar
+dialog.change_nbt.force.tooltip;Crea unha etiqueta se non existe.
+dialog.change_nbt.selection_only;Aplicar á selección soamente
+dialog.change_nbt.selection_only.tooltip;Se este filtro só se debería aplicar á selección actual.
+dialog.change_nbt_confirmation.title;Cambiar NBT
+dialog.change_nbt_confirmation.header_short;Estás a piques de cambiar datos nun número descoñecido de anacos deste mundo.
+dialog.change_nbt_confirmation.header_verbose;Estás a piques de cambiar datos de %d anacos deste mundo.
+dialog.edit_nbt.title;Editar anaco
+dialog.edit_nbt.placeholder.loading;carregando...
+dialog.edit_nbt.placeholder.no_chunk_data;non se atopou datos de anaco
+dialog.edit_nbt.placeholder.no_region_file;ficheiro de rexión non existe
+dialog.edit_array.index;Índice
+dialog.edit_array.value;Valor
+dialog.about.title;Sobre
+dialog.about.header;Sobre o selector MCA
+dialog.about.version;Versión:
+dialog.about.version.unknown;descoñecido
+dialog.about.version.check;comprobar
+dialog.about.version.checking;comprobando...
+dialog.about.version.up_to_date;Actualizado
+dialog.about.version.error;Erro
+dialog.about.license;Licencia:
+dialog.about.copyright;Dereito de copia:
+dialog.about.source;Fonte:
+dialog.progress.title;Progreso
+dialog.progress.no_files;sen ficheiros
+dialog.progress.running;correndo...
+dialog.progress.cancelling;cancelando...
+dialog.progress.collecting_data;recollendo datos...
+dialog.progress.done;feito.
+dialog.progress.title.deleting_selection;Eliminando selección...
+dialog.progress.title.exporting_selection;Exportando selección...
+dialog.progress.title.importing_chunks;Importando anacos...
+dialog.progress.title.deleting_filtered_chunks;Eliminando anacos filtrados...
+dialog.progress.title.exporting_filtered_chunks;Exportando anacos filtrados...
+dialog.progress.title.selecting_filtered_chunks;Seleccionando anacos filtrados...
+dialog.progress.title.changing_nbt_data;Cambiando datos NBT...
+button.cancel;Cancelar
+button.ok;BO
